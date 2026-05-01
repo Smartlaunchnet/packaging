@@ -1,0 +1,86 @@
+.header-title{
+    background-color: rgb(2, 128, 100);
+    color: rgb(212, 146, 66);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90px;
+}
+.logo-home{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    align-items: center;
+}
+
+.smart-homebutton{
+    width: 500px;
+    align-items: center;
+}
+.home-button{
+    margin-left: 10px;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    border: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.home-button:hover {
+color:rgb(255, 41, 41)
+}
+.Office-title{
+    color: white;
+    font-size: 30px;
+    margin-left: 200px;
+}
+.box-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+.all-button{
+background-color: rgb(144, 229, 255);
+width: 250px;
+border-radius: 10px;
+margin-top: 10px;
+
+}
+.photo-1 {
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 8px;
+}
+.photo-descri {
+font-size:14px;
+margin-left: 10px;
+text-align: center;
+margin-right: 8px;
+margin-bottom: 15px;
+text-align: left;
+text-decoration:bisque;
+}
+.price-unit {
+margin-left: 60px;
+border-radius: 20px;
+margin-bottom: 10px;
+width: 120px;
+height: 30px;
+color: rgb(0, 0, 0);
+font-size: 15px;
+border-width: 2px;
+border-style: solid;
+cursor: pointer;
+font-weight: bold;
+font-size: 13px;
+
+}
+.price-unit:hover{
+    background-color: rgb(255, 147, 147);
+}
